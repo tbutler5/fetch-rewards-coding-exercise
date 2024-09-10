@@ -1,4 +1,9 @@
 # Fetch Rewards Coding Exercise - Android App
+
+## Screenshots
+<img width="365" alt="Screenshot 2024-09-10 at 12 45 04 PM" src="https://github.com/user-attachments/assets/7f1bfdf7-c665-48af-881c-634a6dd03ec3">
+<img width="357" alt="Screenshot 2024-09-10 at 12 45 14 PM" src="https://github.com/user-attachments/assets/56d64912-91b2-49f1-a1b1-b734614f2e68">
+
 ## Overview
 ### This Android application is built to complete the coding exercise provided by Fetch Rewards. The app fetches a list of items from an API, groups the items by listId, filters out any items where name is blank or null, and displays the results in a well-organized and easy-to-read format. The items are sorted first by listId, then by name.
 
@@ -11,8 +16,6 @@
 - Error Handling: Displays an error message in case of a network failure.
 - Loading State: Shows a loading spinner while fetching data from the API.
 - Empty State: Displays a message if no items are found after filtering.
-- Screenshots
-(Add relevant screenshots of the app running here.)
 
 ## Project Structure
 ### The project follows MVVM architecture to separate concerns between UI and data handling:
