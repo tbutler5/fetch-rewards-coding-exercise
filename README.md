@@ -2,7 +2,7 @@
 
 ## Screenshots
 <img width="365" alt="Screenshot 2024-09-10 at 12 45 04 PM" src="https://github.com/user-attachments/assets/7f1bfdf7-c665-48af-881c-634a6dd03ec3">
-<img width="357" alt="Screenshot 2024-09-10 at 12 45 14 PM" src="https://github.com/user-attachments/assets/56d64912-91b2-49f1-a1b1-b734614f2e68">
+<img width="360" alt="Screenshot 2024-09-10 at 12 45 33 PM" src="https://github.com/user-attachments/assets/9f12f149-0f2b-4a8c-a805-9183f82573d7">
 
 ## Overview
 ### This Android application is built to complete the coding exercise provided by Fetch Rewards. The app fetches a list of items from an API, groups the items by listId, filters out any items where name is blank or null, and displays the results in a well-organized and easy-to-read format. The items are sorted first by listId, then by name.
