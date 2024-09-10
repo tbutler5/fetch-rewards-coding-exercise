@@ -3,24 +3,23 @@
 ### This Android application is built to complete the coding exercise provided by Fetch Rewards. The app fetches a list of items from an API, groups the items by listId, filters out any items where name is blank or null, and displays the results in a well-organized and easy-to-read format. The items are sorted first by listId, then by name.
 
 ## Features
-### Fetching Data: Retrieves data from the Fetch Rewards API.
-### Data Filtering: Filters out items with blank or null names.
-### Data Grouping: Groups the items by listId.
-### Data Sorting: Sorts the data first by listId, then by name.
-### Expandable List: Allows users to collapse/expand the grouped list for easier navigation.
-### Error Handling: Displays an error message in case of a network failure.
-### Loading State: Shows a loading spinner while fetching data from the API.
-### Empty State: Displays a message if no items are found after filtering.
-### Screenshots
+- Fetching Data: Retrieves data from the Fetch Rewards API.
+- Data Filtering: Filters out items with blank or null names.
+- Data Grouping: Groups the items by listId.
+- Data Sorting: Sorts the data first by listId, then by name.
+- Expandable List: Allows users to collapse/expand the grouped list for easier navigation.
+- Error Handling: Displays an error message in case of a network failure.
+- Loading State: Shows a loading spinner while fetching data from the API.
+- Empty State: Displays a message if no items are found after filtering.
+- Screenshots
 (Add relevant screenshots of the app running here.)
 
 ## Project Structure
 ### The project follows MVVM architecture to separate concerns between UI and data handling:
-
-### ItemViewModel.kt: Handles data fetching and business logic.
-### ApiService.kt: Defines the Retrofit service to fetch data from the API.
-### ItemListScreen.kt: The UI layer that displays the grouped items.
-### Item.kt: Data model for the items fetched from the API.
+- ItemViewModel.kt: Handles data fetching and business logic.
+- ApiService.kt: Defines the Retrofit service to fetch data from the API.
+- ItemListScreen.kt: The UI layer that displays the grouped items.
+- Item.kt: Data model for the items fetched from the API.
 
 ## Setup and Installation
 ## Prerequisites
